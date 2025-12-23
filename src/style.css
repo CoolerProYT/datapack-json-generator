@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+.input-right {
+    @apply border border-zinc-700 rounded-e-lg px-3 py-2 focus:outline-0 focus:border-zinc-500 focus:rounded-lg focus:ring-1 focus:ring-zinc-500 bg-zinc-800 w-64;
+}
+
+.boolean-input-right-first{
+    @apply border border-zinc-700 px-3 py-2 focus:outline-0 hover:border-zinc-500 hover:rounded-lg hover:ring-1 hover:ring-zinc-500 bg-zinc-800 w-32;
+}
+
+.boolean-input-right-second{
+    @apply border border-zinc-700 rounded-e-lg px-3 py-2 focus:outline-0 hover:border-zinc-500 hover:rounded-lg hover:ring-1 hover:ring-zinc-500 bg-zinc-800 w-32;
+}
+
+.boolean-input-right-first > input, .boolean-input-right-second > input{
+    @apply hidden;
+}
+
+.boolean-input-right-first:has(> input:checked), .boolean-input-right-second:has(> input:checked){
+    @apply bg-green-800;
+}
+
+.input-title {
+    @apply border-y border-l border-zinc-700 rounded-l-lg px-3 py-2 text-zinc-300 w-36;
+}
+
+.list-title {
+    @apply border border-zinc-700 rounded-lg px-3 py-2 text-zinc-300 w-36;
+}
+
+.input-container {
+    @apply w-fit shadow shadow-zinc-900 flex my-3;
+}
+
+.effects-container {
+    @apply w-fit shadow shadow-zinc-900 flex;
+}
