@@ -8,7 +8,7 @@ const features = ref([
         status: 'Available',
         icon: '🏹',
         available: true,
-        link: '/arrow+/arrow_data'
+        link: '/arrowplus/arrow_data'
     },
     {
         title: 'Resources Trees',
@@ -71,7 +71,7 @@ const features = ref([
                 <p class="text-blue-100 mb-6">
                     Navigate to Arrow Data using the menu to begin creating your custom configurations
                 </p>
-                <router-link to="/arrow+/arrow_data"
+                <router-link to="/arrowplus/arrow_data"
                     class="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-zinc-100 transition-colors shadow-md">
                     View Documentation
                 </router-link>

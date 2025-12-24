@@ -30,7 +30,7 @@ export default {
             isOpen: false,
             routes: [
                 { path: '/', name: 'Home' },
-                { path: '/arrow+/arrow_data', name: 'Arrow Data' }
+                { path: '/arrowplus/arrow_data', name: 'Arrow Data' }
             ]
         }
     },

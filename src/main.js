@@ -10,7 +10,7 @@ const router = createRouter({
     history: createWebHistory(),
     routes: [
         { path: '/', component: Home },
-        { path: '/arrow+/arrow_data', component: ArrowData },
+        { path: '/arrowplus/arrow_data', component: ArrowData },
         { path: '/:pathMatch(.*)*', redirect: '/' }
     ]
 });
