@@ -11,20 +11,20 @@ const features = ref([
         link: '/arrowplus/arrow_data'
     },
     {
-        title: 'Resources Trees',
+        title: 'Resources Type',
         description: 'Create resource type definitions for your datapacks',
-        status: 'Coming Soon',
+        status: 'Available',
         icon: '🌳',
-        available: false,
-        link: '/'
+        available: true,
+        link: '/resourcestrees/resources_type'
     },
     {
         title: 'Fletching Recipes',
-        description: 'Design custom fletching table recipes',
-        status: 'Coming Soon',
+        description: 'Generate custom fletching table recipes',
+        status: 'Available',
         icon: '🛠️',
-        available: false,
-        link: '/'
+        available: true,
+        link: '/fletchingrecipe'
     }
 ])
 </script>
@@ -61,28 +61,6 @@ const features = ref([
                         {{ feature.status }}
                     </span>
                 </router-link>
-            </div>
-
-            <!-- Call to Action -->
-            <div class="bg-gradient-to-r from-blue-600 to-blue-700 rounded-lg p-8 text-center shadow-lg">
-                <h2 class="text-2xl font-bold text-white mb-3">
-                    Ready to Get Started?
-                </h2>
-                <p class="text-blue-100 mb-6">
-                    Navigate to Arrow Data using the menu to begin creating your custom configurations
-                </p>
-                <router-link to="/arrowplus/arrow_data"
-                    class="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-zinc-100 transition-colors shadow-md">
-                    View Documentation
-                </router-link>
-            </div>
-
-            <!-- Info Banner -->
-            <div class="mt-8 bg-zinc-800 border border-zinc-700 rounded-lg p-6 text-center">
-                <p class="text-zinc-400 text-sm">
-                    Currently supporting <span class="text-zinc-100 font-semibold">Arrow+</span> mod •
-                    More features coming soon
-                </p>
             </div>
         </div>
     </div>

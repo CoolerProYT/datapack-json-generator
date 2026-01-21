@@ -30,7 +30,9 @@ export default {
             isOpen: false,
             routes: [
                 { path: '/', name: 'Home' },
-                { path: '/arrowplus/arrow_data', name: 'Arrow Data' }
+                { path: '/arrowplus/arrow_data', name: 'Arrow Data' },
+                { path: '/fletchingrecipe', name: 'Fletching Recipe' },
+                { path: '/resourcestrees/resources_type', name: 'Resources Type' }
             ]
         }
     },
