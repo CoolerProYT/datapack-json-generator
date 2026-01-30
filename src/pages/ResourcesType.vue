@@ -89,7 +89,7 @@ updateHexFromColor();
                 <div>
                     <span class="font-semibold text-xl">Custom Resources Type</span>
                     <br>
-                    <span class="text-sm text-zinc-400">/resourcestrees/resources_type/{{ material.substring(material.lastIndexOf(":") + 1) }}.json
+                    <span class="text-sm text-zinc-400">&lt;namespace&gt;/resourcestrees/resources_type/{{ material.substring(material.lastIndexOf(":") + 1) }}.json
           </span>
                 </div>
             </div>
@@ -98,7 +98,7 @@ updateHexFromColor();
                 <p class="text-sm text-blue-200">
                     You can add as many resources types to the game as you want. But it must be placed under
                     <code class="bg-zinc-900 px-2 py-1 rounded text-xs">
-                        /resourcestrees/resources_type/*.json
+                        &lt;namespace&gt;/resourcestrees/resources_type/*.json
                     </code>
                 </p>
             </div>
